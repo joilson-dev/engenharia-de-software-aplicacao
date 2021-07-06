@@ -19,12 +19,12 @@ class ClassCadastro extends ClassCrud
                 $arrVar['cpf'],
                 $arrVar['dataCreate'],
                 'user',
-                'confirmation'
+                'active'
             )
         );
 
         $this->insertDB(
-            "confirmation",
+            "active",
             "?,?,?",
             array(
                 0,
