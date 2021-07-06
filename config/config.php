@@ -18,8 +18,8 @@ define('PASS', "");
 
 #Informações do servidor de email
 define("HOSTMAIL","smtp.gmail.com");
-define("USERMAIL","fabricio.colodette2001@gmail.com");
-define("PASSMAIL","Fabricio123");
+define("USERMAIL","seuEmail@email.com");
+define("PASSMAIL","suaSenha");
 
 #Outras informações
 define('SITEKEY', '6Le5fW4aAAAAAC3ZN0k1POpSTFfA7bwyGQoV-SfI');
