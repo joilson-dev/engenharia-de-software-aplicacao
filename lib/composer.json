@@ -1,0 +1,21 @@
+{
+    "name": "login/flc",
+    "description": "Cadastro e Login",
+    "authors": [
+        {
+            "name": "Fabricio",
+            "email": "fabricio.colodette2001@gmail.com"
+        }
+    ],
+    "require": {
+        "bjeavons/zxcvbn-php": "^1.0",
+        "phpmailer/phpmailer": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Classes\\":"../classes/",
+            "Models\\":"../models/",
+            "Traits\\":"../traits//"
+        }
+    }
+}
