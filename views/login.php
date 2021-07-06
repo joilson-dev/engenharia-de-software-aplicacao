@@ -5,9 +5,7 @@
 
     <div class="login">
 
-        <div class="loginLogomarca float w100 center">
-            <img src="<?php echo DIRPAGE.'img/logoMarca4.png' ?>" alt="Logomarca">
-        </div>
+        
 
         <div class="resultadoForm float w100 center"></div>
 
