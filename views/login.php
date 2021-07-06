@@ -16,10 +16,6 @@
             <input class="float w100 h40 " type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" required>
             <input class="float h40 center" type="submit" value="Entrar">
 
-            <div class="loginTexto float center">
-                <a href="<?php echo DIRPAGE.'esqueci-minha-senha' ?>">Esqueci minha senha</a>
-            </div>
-
         </div>
 
     </div>
