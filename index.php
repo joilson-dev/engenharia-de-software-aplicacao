@@ -15,10 +15,12 @@ mysqli_connect("us-cdbr-east-04.cleardb.com", "b5da11fde38f6a", "44b2e8bf", "her
 echo "Connected to MySQL<br />";
 */
 
-include("config/config.php");
+echo "Teste";
+
 try {
-  $con = new PDO("mysql:host=" . HOST . ";dbname=" . DB . "", "" . USER . "", "" . PASS . "");
+  $con = new PDO("mysql:host=" . "us-cdbr-east-04.cleardb.com" . ";dbname=" . "heroku_3762ce4dc37b2bb" . "", "" . "b5da11fde38f6a" . "", "" . "44b2e8bf" . "");
   echo "Conectou no Banco de dados";
-} catch (\PDOException $erro) {
+} catch (PDOException $erro) {
   echo "Deu algum problema";
+  echo $erro;
 }
