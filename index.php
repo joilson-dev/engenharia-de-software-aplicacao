@@ -1,5 +1,5 @@
 <?php
-
+echo "teste 1";
 use Classes\ClassDispatch;
 
 header("Content-Type: text/html; charset=utf-8");
