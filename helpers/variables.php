@@ -39,7 +39,7 @@ if (isset($_POST['senhaConf'])) {
     $senhaConf = null;
 }
 
-$dataCreate = date(format: "Y-m-d H:i:s");
+$dataCreate = date("Y-m-d H:i:s");
 $token = bin2hex(random_bytes(64));
 
 if (isset($_POST['g-recaptcha-response'])) {
