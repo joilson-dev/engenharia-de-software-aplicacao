@@ -1,6 +1,6 @@
 <?php
 #Caminho absolutos
-$pastaInterna = "cadastro_login/"; #se tive no diretorio raiz , deixe vazio
+$pastaInterna = ""; #se tive no diretorio raiz , deixe vazio
 define('DIRPAGE', "http://{$_SERVER['HTTP_HOST']}/{$pastaInterna}");
 (substr($_SERVER['DOCUMENT_ROOT'], -1) == '/') ? $barra = '' : $barra = '/';
 define('DIRREQ', "{$_SERVER['DOCUMENT_ROOT']}{$barra}{$pastaInterna}");
