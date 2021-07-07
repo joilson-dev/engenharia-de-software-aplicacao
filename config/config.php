@@ -11,10 +11,10 @@ define('DIRCSS', DIRPAGE . 'lib/css/');
 define('DIRJS', DIRPAGE . 'lib/js/');
 
 #Acesso ao DB
-define('HOST', "localhost");
-define('DB', "sistema");
-define('USER', "root");
-define('PASS', "");
+define('HOST', "us-cdbr-east-04.cleardb.com");
+define('DB', "heroku_3762ce4dc37b2bb");
+define('USER', "b5da11fde38f6a");
+define('PASS', "44b2e8bf");
 
 #Informações do servidor de email
 define("HOSTMAIL","smtp.gmail.com");
