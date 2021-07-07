@@ -1,5 +1,7 @@
 <?php
+echo "Ola Mundo";
 
+/*
 use Classes\ClassDispatch;
 
 header("Content-Type: text/html; charset=utf-8");
@@ -9,3 +11,4 @@ include(DIRREQ . "helpers/variables.php");
 
 $diespatch = new Classes\ClassDispatch();
 include($diespatch->getInclusão());
+*/
