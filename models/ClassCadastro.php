@@ -24,7 +24,7 @@ class ClassCadastro extends ClassCrud
         );
 
         $this->insertDB(
-            "active",
+            "confirmation",
             "?,?,?",
             array(
                 0,
