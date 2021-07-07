@@ -23,7 +23,7 @@ input[type='email'],input[type='password'],input[type='text']{ margin: 15px 0; b
 
     input[type='submit']:hover{opacity: 0.8;}
 
-    .fundo{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('/cadastro_login/img/fundo-L.jpg') center center no-repeat; background-size: cover;}
+    .fundo{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('/img/fundo-L.jpg') center center no-repeat; background-size: cover;}
 
     .login{ position: absolute; width: 30%; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); background: #ffffff; padding: 30px; }
     
@@ -41,7 +41,7 @@ input[type='email'],input[type='password'],input[type='text']{ margin: 15px 0; b
     
     input[type='submit']{ width: 40%;}
 
-    .fundo{background: url('/cadastro_login/img/fundo-XS.jpg') center center no-repeat; background-size: cover;}
+    .fundo{background: url('/img/fundo-XS.jpg') center center no-repeat; background-size: cover;}
 
     .login{width: 100%;}
     
@@ -56,7 +56,7 @@ input[type='email'],input[type='password'],input[type='text']{ margin: 15px 0; b
 
     input[type='submit']{ width: 40%;}
 
-    .fundo{background: url('/cadastro_login/img/fundo-S.jpg') center center no-repeat; background-size: cover;}
+    .fundo{background: url('/img/fundo-S.jpg') center center no-repeat; background-size: cover;}
 
     .login{width: 75%;}
     
@@ -70,7 +70,7 @@ input[type='email'],input[type='password'],input[type='text']{ margin: 15px 0; b
 
     input[type='submit']{ width: 40%;}
 
-    .fundo{background: url('/cadastro_login/img/fundo-M.jpg') center center no-repeat; background-size: cover;}
+    .fundo{background: url('/img/fundo-M.jpg') center center no-repeat; background-size: cover;}
 
     .login{width: 50%}
     
