@@ -22,6 +22,6 @@ define("USERMAIL","seuEmail@email.com");
 define("PASSMAIL","suaSenha");
 
 #Outras informações
-define('SITEKEY', '6Le5fW4aAAAAAC3ZN0k1POpSTFfA7bwyGQoV-SfI');
-define('SECRETKEY', '6Le5fW4aAAAAAG47LS1Fuul2fWxW7vHagEadyX71');
+define('SITEKEY', '6LeVd30bAAAAAIofJQ4qqP9RREeEih9lx1bVkCst');
+define('SECRETKEY', '6LeVd30bAAAAAOoMi5wEflEETJC7NxRIazqWIf45');
 define('DOMAIN', $_SERVER["HTTP_HOST"]);
