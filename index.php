@@ -1,9 +1,11 @@
 <?php
-echo "teste 1";
 use Classes\ClassDispatch;
 
 header("Content-Type: text/html; charset=utf-8");
 include("config/config.php");
+
+var_dump(DIRPAGE, DIRREQ);
+echo "<hr>";
 include(DIRREQ . "lib/vendor/autoload.php");
 include(DIRREQ . "helpers/variables.php");
 
