@@ -4,7 +4,7 @@ use Classes\ClassDispatch;
 header("Content-Type: text/html; charset=utf-8");
 include("config/config.php");
 
-var_dump(DIRPAGE, DIRREQ);
+var_dump(DIRPAGE, DIRREQ, __DIR__);
 echo "<hr>";
 include(DIRREQ . "lib/vendor/autoload.php");
 include(DIRREQ . "helpers/variables.php");
