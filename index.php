@@ -17,7 +17,7 @@ echo "Connected to MySQL<br />";
 
 include("config/config.php");
 try {
-  $con = new \PDO("mysql:host=" . HOST . ";dbname=" . DB . "", "" . USER . "", "" . PASS . "");
+  $con = new PDO("mysql:host=" . HOST . ";dbname=" . DB . "", "" . USER . "", "" . PASS . "");
   echo "Conectou no Banco de dados";
 } catch (\PDOException $erro) {
   echo "Deu algum problema";
