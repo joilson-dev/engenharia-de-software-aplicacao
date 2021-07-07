@@ -18,6 +18,14 @@ echo "Connected to MySQL<br />";
 echo "Teste Utilizando as variaveis de config <br>";
 include("config/config.php");
 try {
+  echo HOST;
+  echo DB;
+  echo USER; 
+  echo PASS;
+} catch (Exception $e) {
+  echo "Erro";
+}
+try {
   $con = new PDO("mysql:host=" . HOST . ";dbname=" . DB . "", "" . USER . "", "" . PASS . "");
   echo "Conectou no Banco de dados";
 } catch (PDOException $erro) {
