@@ -1,4 +1,4 @@
-<?php \Classes\ClassLayout::setHead('Homepage', 'Esse e o homepage do nosso site'); ?>
+<?php \Classes\ClassLayout::setHead('Trabalho de Engenharia de Software', 'Desenvolvedores: Fabício, Fábio, Joilson'); ?>
 
 <style>
     body, html{
