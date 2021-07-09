@@ -5,13 +5,13 @@
     height: 100%;
 }    
 #homepage {
-    background-image: linear-gradient(90deg, #4e8cff, #5c59ff, #7465ff);
+    background-image: linear-gradient(90deg, rgb(150, 180, 255), rgb(197, 197, 197), rgb(150, 180, 255));
     height: 100%; 
     padding: 10%;
 }
 
 #homemenu {
-    background-image: linear-gradient(90deg, #4e8cff, #5c59ff, #7465ff);
+    background-image: linear-gradient(90deg, rgb(150, 180, 255), rgb(197, 197, 197), rgb(150, 180, 255));
     border: 2px solid rgb(255, 255, 255); 
     padding: 10%;
 }
@@ -25,6 +25,7 @@
     margin: 10%;
     padding: 5px;
     color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 #homemenu p {
