@@ -4,7 +4,7 @@
         Cadastro de Cliente
     </div>
 
-    <div class="retornoCad">
+    <div class="retornoCad float w100 center">
     
     </div>
 
