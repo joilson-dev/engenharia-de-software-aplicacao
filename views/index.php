@@ -41,7 +41,7 @@
         <br>
         <a href="<?php echo DIRPAGE . 'login' ?>">Login</a>
 
-        <p>Fabício, Fábio, Joilson</p>
+        <p>Fabrício, Fábio, Joilson</p>
     </div>
 </div>
 <?php \Classes\ClassLayout::setFooter(); ?>
