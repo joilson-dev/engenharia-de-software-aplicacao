@@ -1,7 +1,10 @@
 <?php \Classes\ClassLayout::setHead('Homepage', 'Esse e o homepage do nosso site'); ?>
 
 <style>
-    #homepage {
+    body, html{
+    height: 100%;
+}    
+#homepage {
     background-image: linear-gradient(90deg, #4e8cff, #5c59ff, #7465ff);
     height: 100%; 
     padding: 10%;
