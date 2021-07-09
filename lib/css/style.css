@@ -35,6 +35,8 @@ input[type='email'],input[type='password'],input[type='text']{ margin: 15px 0; b
     .topFaixa{height: 50px; background: rgb(104, 179, 179); font-weight: bold; color: #ffffff; line-height: 50px;}
 
     .resultadoForm{margin-top: 20px; font-weight: bold; color: red; line-height: 20px;}
+    
+    .retornoCad{margin-top: 20px; font-weight: bold; color: red; line-height: 20px;}
 
 
 /*Muito pequeno*/
